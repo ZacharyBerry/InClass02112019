@@ -1,0 +1,20 @@
+﻿<Window x:Class="InClass02112019.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:InClass02112019"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="70,75,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtname" HorizontalAlignment="Left" Height="23" Margin="198,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtname_TextChanged"/>
+        <TextBox x:Name="txtaddress" HorizontalAlignment="Left" Height="23" Margin="198,172,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="txtaddress_TextChanged"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="70,172,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtZipCode" HorizontalAlignment="Left" Height="23" Margin="198,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <Label Content="Zip Code" HorizontalAlignment="Left" Margin="70,282,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnSubmit" Content="Submit " HorizontalAlignment="Left" Margin="43,327,0,0" VerticalAlignment="Top" Width="275" Height="70" Click="Button_Click"/>
+        <ListBox x:Name="lstApplications" HorizontalAlignment="Left" Height="347" Margin="445,50,0,0" VerticalAlignment="Top" Width="288"/>
+
+    </Grid>
+</Window>
